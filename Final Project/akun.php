@@ -15,6 +15,8 @@ $customer = mysqli_fetch_array($result);
 <?php echo $customer['gender']?><br />
 <?php endif;?>
 
+masa sih
+
 <?php
 if(isset($_SESSION['User']))
 {
