@@ -6,14 +6,7 @@ $result = mysqli_query($db, $query);
 $customer = mysqli_fetch_array($result);
 ?>
 <?php session_start();?>
-<!-- 
-adsad
 
-asdad
-
-
-
-adafqrsdfsfsdf -->
 <?php if($customer['gambar']!=null):?>
 <img width="200" src="<?php echo $customer['gambar']?>"><br />
 <?php echo ' Wellcome ' . $_SESSION['User'];?><br />
