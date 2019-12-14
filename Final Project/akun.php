@@ -14,7 +14,6 @@ $customer = mysqli_fetch_array($result);
 <h4>Informasi Produk</h4>
 <?php echo $customer['gender']?><br />
 <?php endif;?>
-apa mubikin neert
 
 <?php
 if(isset($_SESSION['User']))
