@@ -1,0 +1,14 @@
+git branch = lihat cabang
+git branch (namacabang) = buat cabang agar file master tidak terubah
+
+git merge (namacabang) = menyatukan cabang ke master
+
+git checkout (namacabang) = pindah cabang
+
+git status = melihat status github
+
+
+Proses upload file ke github
+git add (namafile) = buat file ke stage unuk upload(WAJIB)
+git add. = semua folder/file ke stage(jika diatas error)
+git commi -m "deskripsi" = untuk melakukan commit
