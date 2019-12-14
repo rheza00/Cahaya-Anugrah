@@ -15,7 +15,7 @@ $customer = mysqli_fetch_array($result);
 <?php echo $customer['gender']?><br />
 <?php endif;?>
 
-knpsihh
+apaje
 <?php
 if(isset($_SESSION['User']))
 {
