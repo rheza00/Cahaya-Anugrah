@@ -1,5 +1,6 @@
 git branch = lihat cabang
 git branch (namacabang) = buat cabang agar file master tidak terubah
+git branch -d (namacabang) = hapus cabang
 
 git merge (namacabang) = menyatukan cabang ke master
 
