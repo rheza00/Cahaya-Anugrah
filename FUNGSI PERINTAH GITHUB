@@ -11,4 +11,4 @@ git status = melihat status github
 Proses upload file ke github
 git add (namafile) = buat file ke stage unuk upload(WAJIB)
 git add. = semua folder/file ke stage(jika diatas error)
-git commi -m "deskripsi" = untuk melakukan commit
+git commit -m "deskripsi" = untuk melakukan commit
