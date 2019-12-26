@@ -14,3 +14,6 @@ git add (namafile) = buat file ke stage unuk upload(WAJIB)
 git add. = semua folder/file ke stage(jika diatas error)
 git commit -m "deskripsi" = untuk melakukan commit
 
+
+
+@yield('title') = buat pemanggilan template layout laravel
