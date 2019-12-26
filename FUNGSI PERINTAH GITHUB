@@ -16,4 +16,23 @@ git commit -m "deskripsi" = untuk melakukan commit
 
 
 
+
+@extends('layout/main');
+
 @yield('title') = buat pemanggilan template layout laravel
+
+
+
+@section('title,', 'web programmer')
+
+@section('container')
+<div class="container">
+<div class="row">
+<div class="col-10">
+<h1 class="mt-3">Hello World!</h1></div>
+</div>
+</div>
+@endsection
+
+
+

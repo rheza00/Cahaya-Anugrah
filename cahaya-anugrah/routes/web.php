@@ -15,4 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-asdf
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
