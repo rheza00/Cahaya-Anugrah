@@ -20,7 +20,6 @@
         }
     ?>
 
-
     <?php 
         if(@$_GET['Invalid']==true)
         {?>
@@ -28,7 +27,7 @@
             <?php
         }
     ?>
-
+    
     <div class="card-body">
         <form action="process.php" method="post">
             <input type="text" name="nama" placeholder=" User Name" class="form-control mb-3">
