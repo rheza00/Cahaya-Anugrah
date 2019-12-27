@@ -1,4 +1,4 @@
-@extends('layout/headfoot');
+@extends('layout/headfoot')
 
     
 @section('title,', 'ini index')

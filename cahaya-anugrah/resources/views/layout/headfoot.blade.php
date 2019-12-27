@@ -17,14 +17,14 @@
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body ng-app="myApp">
 
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-md navbar-light sticky-top navigasi ">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"><img id="logo" src="IMG/logo.png"></a>
+			<a href="#" class="navbar-brand"><img id="logo" src="images/logo.png"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -59,7 +59,7 @@
 		<div class="container-fluid padding">
 			<div class="row text-center">
 				<div class="col-md-4">
-					<img src="IMG/logo.png" width="50px" height="45px">
+					<img src="images/logo.png" width="50px" height="45px">
 					<hr class="light">
 					<p>Nomor Telp</p>
 					<p>Email</p>
@@ -74,7 +74,7 @@
 					<p>Minggu :Tutup</p>
 				</div>
 				<div class="col-md-4">
-					<img src="IMG/Creator.png" width="50px" height="45px">
+					<img src="images/Creator.png" width="50px" height="45px">
 					<hr class="light">
 					<p>Brayen Bakara</p>
 					<p>Reza Anugrah</p>
