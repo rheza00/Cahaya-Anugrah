@@ -18,20 +18,21 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/pencarian.css">
 </head>
 <body ng-app="myApp">
 
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-md navbar-light sticky-top navigasi ">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"><img id="logo" src="images/logo.png"></a>
+			<a href="#" class="navbar-brand"><img id="logo" src="IMG/logo.png"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">  
 					<li class="nav-item">
-						<a class="nav-link" id="white" href="#">Home</a>
+						<a class="nav-link" id="white" href="index">Home</a>
 					</li>
 					<li class="nav-item">
 						<div class="dropdown">
@@ -59,7 +60,7 @@
 		<div class="container-fluid padding">
 			<div class="row text-center">
 				<div class="col-md-4">
-					<img src="images/logo.png" width="50px" height="45px">
+					<img src="IMG/logo.png" width="50px" height="45px">
 					<hr class="light">
 					<p>Nomor Telp</p>
 					<p>Email</p>
@@ -74,7 +75,7 @@
 					<p>Minggu :Tutup</p>
 				</div>
 				<div class="col-md-4">
-					<img src="images/Creator.png" width="50px" height="45px">
+					<img src="IMG/Creator.png" width="50px" height="45px">
 					<hr class="light">
 					<p>Brayen Bakara</p>
 					<p>Reza Anugrah</p>
@@ -99,6 +100,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 	<!-- Index.js -->
-	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

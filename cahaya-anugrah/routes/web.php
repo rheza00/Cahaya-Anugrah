@@ -22,3 +22,7 @@ Route::get('/index', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/pencarian', function () {
+    return view('pencarian');
+});
