@@ -15,23 +15,12 @@
 	height: 100%;
 }
 
-.produk{
-	height: auto;
-	padding: 20px;
-}
-
-.produk .detail-produk{
-	display: flex;
-	flex-direction: column;
-	padding-left: 25px;
-}
-
-.status-produk{
-	display: flex;
-	flex-direction: row;
-	padding-top: 20px;
-}
-
-.harga{
+#harga{
 	color: #2CB727;
 }
+
+#line{
+	border-left: 2px solid gray;
+	height: 120px;
+}
+
