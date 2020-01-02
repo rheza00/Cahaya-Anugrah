@@ -1,37 +1,26 @@
-#sidebar {
-    letter-spacing: .2rem;
+#sidebar{
+	letter-spacing: .2rem;
 }
 
-.jumbotron {
-    background-color: rgba(107, 102, 102, 1);
+.jumbotron{
+	background-color: rgba(107,102,102,1);
 }
 
-.list-produk {
-    display: flex;
-    flex-direction: row;
+.list-produk{
+	display: flex;
+	flex-direction: row;
 }
 
-#sidebar {
-    height: 100%;
+#sidebar{
+	height: 100%;
 }
 
-.produk {
-    height: auto;
-    padding: 20px;
+#harga{
+	color: #2CB727;
 }
 
-.produk .detail-produk {
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
+#line{
+	border-left: 2px solid gray;
+	height: 120px;
 }
 
-.status-produk {
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-}
-
-.harga {
-    color: #2CB727;
-}
