@@ -1,0 +1,16 @@
+#line{
+	border-left: 2px solid black;
+	height: 120px;
+}
+
+#submit{
+	color: white;
+}
+
+#foto{
+	max-width:360px;
+}
+
+input[type=file]{
+	padding:10px;
+	background:#2d2d2d;}
