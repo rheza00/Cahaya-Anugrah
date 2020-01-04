@@ -1,8 +1,4 @@
-var app = angular.module("myApp", ['ngRoute']);
-app.config(function ($routeProvider) {
-$routeProvider
-.when("/P-Populer", {
-template: <h5 style="padding-left:35px;">Top Trending:</h5>
+<h5 style="padding-left:35px;">Top Trending:</h5>
 <section class="listings">
     <div class="wrapper">
         <ul class="list-barang">
@@ -44,11 +40,9 @@ template: <h5 style="padding-left:35px;">Top Trending:</h5>
             </li>
         </ul>
     </div>
-</section>'
-})
+</section>
 
-.when("/P-Baru", {
-template: <h5 style="padding-left:35px;">New Product:</h5>
+<h5 style="padding-left:35px;">New Product:</h5>
 <section class="listings">
     <div class="wrapper">
         <ul class="list-barang">
@@ -90,11 +84,9 @@ template: <h5 style="padding-left:35px;">New Product:</h5>
             </li>
         </ul>
     </div>
-</section>'
-})
+</section>
 
-.when("/P-Anda", {
-template: <h5 style="padding-left:35px;">Based on Your Profile:</h5>
+<h5 style="padding-left:35px;">Based on Your Profile:</h5>
 <section class="listings">
     <div class="wrapper">
         <ul class="list-barang">
@@ -136,11 +128,8 @@ template: <h5 style="padding-left:35px;">Based on Your Profile:</h5>
             </li>
         </ul>
     </div>
-</section>'
-})
-
-.when("/Masuk", {
-template: <div class="bg-form">
+</section>
+ <div class="bg-form">
     <div class="form-isi col-md-4">
         <a href="#">
             <div class="close">+</div>
@@ -168,11 +157,9 @@ template: <div class="bg-form">
                 class="btn btn-primary btn-lg btn-block">Masuk</button>
         </form>
     </div>
-</div>'
-})
+</div>
 
-.when("/Daftar", {
-template: <div class="bg-form">
+<div class="bg-form">
     <div class="form-isi col-md-4 ">
         <a href="#">
             <div class="close">+</div>
@@ -211,6 +198,4 @@ template: <div class="bg-form">
             <button type="submit" class="btn btn-primary btn-lg btn-block">Daftar</button>
         </form>
     </div>
-</div>'
-})
-});
+</div>
