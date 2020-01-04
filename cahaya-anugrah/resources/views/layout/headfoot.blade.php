@@ -31,21 +31,21 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-md navbar-light sticky-top navigasi ">
 		<div class="container-fluid">
-			<a href="#" class="navbar-brand"><img id="logo" src="IMG/logo.png"></a>
+			<a href="{{url('/')}}" class="navbar-brand"><img id="logo" src="IMG/logo.png"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">  
 					<li class="nav-item">
-						<a class="nav-link" id="white" href="index">Home</a>
+						<a class="nav-link" id="white" href="{{url('/')}}">Home</a>
 					</li>
 					<li class="nav-item">
 						<div class="dropdown">
-							<a class="nav-link" id="white" href="belanja" id="Belanja">Belanja</a>
+							<a class="nav-link" id="white" href="{{url('/belanja')}}" id="Belanja">Belanja</a>
 							<div class="dropdown-content text-center">
 								<p>Keranjang Belanja Anda Kosong</p>
-								<a class="btn btn-primary" href="belanja" role="button">Belanja Sekarang</a>
+								<a class="btn btn-primary" href="{{url('/belanja')}}" role="button">Belanja Sekarang</a>
 							</div>
 						</div>
 					</li>

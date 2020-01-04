@@ -12,7 +12,7 @@
 			</div>
 			<div id="src">
 				<input type="text" name="search" placeholder="Cari berdasarkan Kategori, Produk atau kata kunci" class="form-control">
-				<a class="btn btn-primary" href="pencarian" style="margin: 10px;" role="button">Cari</a>
+				<a class="btn btn-primary" href="{{url('/pencarian')}}" style="margin: 10px;" role="button">Cari</a>
 			</div>
 		</div>
 	</div>

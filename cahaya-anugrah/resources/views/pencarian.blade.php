@@ -13,7 +13,7 @@
 			</div>
 			<div id="src">
 				<input type="text" name="search" placeholder="Cari berdasarkan Kategori, Produk atau kata kunci" class="form-control">
-				<a class="btn btn-primary" href="pencarian.html" style="margin: 10px;" role="button">Cari</a>
+				<a class="btn btn-primary" href="{{url('/pencarian')}}" style="margin: 10px;" role="button">Cari</a>
 			</div>
 		</div>
 	</div>
@@ -74,8 +74,8 @@
 				<div class="d-flex">
 					<hr id="line">
 					<div class="container">
-						<a href="belanja.html" class="mt-4 btn btn-primary col">Beli</a>
-						<a href="info.html" class="mt-4 btn btn-primary col">Info</a>
+						<a href="{{url('/belanja')}}" class="mt-4 btn btn-primary col">Beli</a>
+						<a href="{{url('/info')}}" class="mt-4 btn btn-primary col">Info</a>
 					</div>
 				</div>
 			</div>
