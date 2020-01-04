@@ -16,14 +16,14 @@
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 	<!-- Index.js -->
-	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/index.js') }}"></script>
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/pencarian.css">
-	<link rel="stylesheet" type="text/css" href="css/info.css">
-	<link rel="stylesheet" type="text/css" href="css/belanja.css">
-	<link rel="stylesheet" type="text/css" href="css/akun.css">
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/pencarian.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/info.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/belanja.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/akun.css') }}">
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body ng-app="myApp">
