@@ -38,3 +38,11 @@ Route::get('/info', function () {
 Route::get('/pencarian', function () {
     return view('pencarian');
 });
+
+Route::get('/daftar', function () {
+    return view('daftar');
+});
+
+Route::get('/masuk', function () {
+    return view('masuk');
+});

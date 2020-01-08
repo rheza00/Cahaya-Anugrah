@@ -10,14 +10,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
 
 	<!--Boostrap CSS-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
 
 	<!-- Prototyping Vue Js -->
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 	<!-- Index.js -->
 	<script type="text/javascript" src="{{ URL::asset('js/index.js') }}"></script>
-
+	 
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/bootstrap.css') }}">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/pencarian.css') }}">
@@ -50,10 +51,10 @@
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="white" href="#!Daftar" id="Daftar">Daftar</a>
+						<a class="nav-link" id="white" href="{{url('/daftar')}}" id="">Daftar</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="white" href="#!Masuk" id="Masuk">Masuk</a>
+						<a class="nav-link" id="white" href="{{url('/masuk')}}" id="Masuk">Masuk</a>
 					</li>
 				</ul>
 			</div>
@@ -61,6 +62,7 @@
 	</nav>
 
     @yield('container');
+	   
 
 
 	<div ng-view>
