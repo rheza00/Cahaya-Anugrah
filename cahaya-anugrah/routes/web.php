@@ -46,3 +46,5 @@ Route::get('/daftar', function () {
 Route::get('/masuk', function () {
     return view('masuk');
 });
+
+Route::get('/Barangs', 'BarangsController@index');
