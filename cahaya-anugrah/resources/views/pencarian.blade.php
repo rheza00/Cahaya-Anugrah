@@ -1,6 +1,5 @@
 @extends('layout/headfoot')
 
-    
 @section('title,', 'ini pencarian')
 @section('container') 
 
