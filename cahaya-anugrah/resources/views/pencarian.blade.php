@@ -58,15 +58,16 @@
 		</div>
 		<div class="col-md-8">
 			<!-- Item Pencarian -->
+			@foreach ( $pencarian as $barang )
 			<div class="border rounded p-3 m-2 d-flex justify-content-between">
 				<div class="d-flex">
 					<img src="img/logo.png" width="150px" height="150px" class="mr-3 mb-4">			
 					<div class="ml-3">
-						<h5><a href="">Nama Barang</a></h5>
-						<p class="mt-4">Jenis Barang</p>
+						<h5><a href="info/{{ $barang->id }}">{{$barang->nama}}</a></h5>
+						<p class="mt-4">{{$barang->kategori}}</p>
 						<div class="d-flex mt-4">
-							<p class="mr-5" id="harga"><i class="fas fa-tags mr-2"></i>Harga</p>
-							<p class="mr-5"><i class="fas fa-fire mr-2"></i>Kondisi</p>
+							<p class="mr-5" id="harga"><i class="fas fa-tags mr-2"></i>{{$barang->harga}}</p>
+							<p class="mr-5"><i class="fas fa-fire mr-2"></i>{{$barang->kondisi}}</p>
 							<p class="mr-5"><i class="fas fa-eye mr-2"></i>Banyak Dilihat</p>
 						</div>
 					</div>
@@ -79,6 +80,7 @@
 					</div>
 				</div>
 			</div>
+			@endforeach
 		</div>
 	</div>
     @endsection

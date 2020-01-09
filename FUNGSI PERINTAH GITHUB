@@ -36,3 +36,25 @@ git commit -m "deskripsi" = untuk melakukan commit
 
 
 
+php artisan migrate //lakukak migrasi
+
+php artisan make:migration create_barangs_table //buat migrasi
+
+php artisan make:controller BarangsController -r -m Barang      //buat controller sekaligus model
+
+
+//php controller
+return view('students.show', compact('student'));
+
+
+@foreach($students as $student)
+<li class"">{{ $student->nama }}</li>
+<a href="/students/{{ $student->id }}">detail</a>
+</li>
+@endforeach
+
+
+
+
+
+

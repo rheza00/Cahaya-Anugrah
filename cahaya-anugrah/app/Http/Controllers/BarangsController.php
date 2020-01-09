@@ -14,7 +14,8 @@ class BarangsController extends Controller
      */
     public function index()
     {
-        return 'hello';
+        $barangs = Barang::all();
+        return view('pencarian', ['pencarian' => $barangs]);
     }
 
     /**
@@ -46,7 +47,7 @@ class BarangsController extends Controller
      */
     public function show(Barang $barang)
     {
-        //
+        return view('info', compact('barang'));
     }
 
     /**

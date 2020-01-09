@@ -5,6 +5,7 @@
 @section('container') 
 	<!-- Search Box -->
 	<div class="jumbotron bg">
+		<form action="/search" method="get">
 		<div id="src_box" class="container">
 			<div id="title_src" class="text-light">
 				<img src="img/ICON/Search.png" width="20px" height="20px">
@@ -15,6 +16,7 @@
 				<a class="btn btn-primary" href="{{url('/pencarian')}}" style="margin: 10px;" role="button">Cari</a>
 			</div>
 		</div>
+		</form>
 	</div>
 
 	<!-- Produk -->

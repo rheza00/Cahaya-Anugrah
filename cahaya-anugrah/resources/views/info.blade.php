@@ -5,11 +5,11 @@
 @section('container') 
 <div class="container-fluid info-barang text-light p-4 mb-5">
 		<div>
-			<h5 class="mb-3">Nama Barang</h5>
-			<p>Kategori</p>
+			<h5 class="mb-3">{{$barang->nama}}</h5>
+			<p>{{$barang->kategori}}</p>
 			<div class="d-flex justify-content-between">
-				<p><i class="fas fa-tags mr-2"></i>Harga</p>
-				<p><i class="fas fa-fire mr-2"></i>Kondisi</p>
+				<p><i class="fas fa-tags mr-2"></i>{{$barang->harga}}</p>
+				<p><i class="fas fa-fire mr-2"></i>{{$barang->kondisi}}</p>
 				<p><i class="fas fa-eye mr-2"></i>Banyak Dilihat</p>
 				<p>Terjual</p>
 				<p>Tersisa</p>
@@ -56,7 +56,7 @@
 		<div class="col-md-6 ml-4">
 			<h4 class="text-secondary">Informasi Produk</h4>
 			<hr>
-			<p>Deskripsi</p>
+			<p>{{$barang->deskripsi}}</p>
 		</div>
 	</div>
 	<div ng-view></div>

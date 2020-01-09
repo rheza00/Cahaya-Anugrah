@@ -10,7 +10,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
 
 	<!--Boostrap CSS-->
-	
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/bootstrap.css') }}">
 
 	<!-- Prototyping Vue Js -->
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -18,7 +18,7 @@
 	<!-- Index.js -->
 	<script type="text/javascript" src="{{ URL::asset('js/index.js') }}"></script>
 	 
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/bootstrap.css') }}">
+
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/pencarian.css') }}">
@@ -51,10 +51,10 @@
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="white" href="{{url('/daftar')}}" id="">Daftar</a>
+						<a class="nav-link" id="white" href="{{url('/register')}}">Daftar</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="white" href="{{url('/masuk')}}" id="Masuk">Masuk</a>
+						<a class="nav-link" id="white" href="{{url('/login')}}">Masuk</a>
 					</li>
 				</ul>
 			</div>
@@ -75,9 +75,9 @@
 				<div class="col-md-4">
 					<img src="IMG/logo.png" width="50px" height="45px">
 					<hr class="light">
-					<p>Nomor Telp</p>
-					<p>Email</p>
-					<p>Alamat</p>
+					<p>+62 852-4080-4775</p>
+					<p>cahaya.anugrah012@gmail.com</p>
+					<p>Jl.Padi unggul, Wonomulyo</p>
 				</div>
 				<div class="col-md-4">
 					<hr class="light">

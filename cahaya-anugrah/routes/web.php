@@ -31,20 +31,40 @@ Route::get('/belanja', function () {
     return view('belanja');
 });
 
-Route::get('/info', function () {
-    return view('info');
+
+Route::get('/pesanan', function () {
+    return view('/login/pesanan');
 });
 
-Route::get('/pencarian', function () {
-    return view('pencarian');
+Route::get('/produksaya', function () {
+    return view('/login/produksaya');
 });
 
-Route::get('/daftar', function () {
-    return view('daftar');
+Route::get('/statistik', function () {
+    return view('/login/statistik');
 });
 
-Route::get('/masuk', function () {
-    return view('masuk');
+Route::get('/tambahproduk', function () {
+    return view('/login/tambahproduk');
 });
 
-Route::get('/Barangs', 'BarangsController@index');
+// Route::get('/pencarian', function () {
+//     return view('pencarian');
+// });
+
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+
+Route::get('/pencarian', 'BarangsController@index');
+Route::get('/info/{barang}', 'BarangsController@show');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

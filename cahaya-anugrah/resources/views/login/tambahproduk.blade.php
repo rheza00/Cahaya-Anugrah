@@ -1,9 +1,9 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.js">
-<title></title>
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('js/bootstrap.js') }}">
+<title>tambah_produk</title>
 <style type="text/css">
 .samping{
 position: relative;
@@ -37,12 +37,11 @@ left: 660px;
 <div class="row pt-4" >
 <div class="col-md-2 bg-light">
 	<ul class="list-group">
-  <li class="list-group-item ">Produk</li>
-  <li class="list-group-item">Pesanan</li>
-  <li class="list-group-item">Produk Saya</li>
-  <li class="list-group-item active">Tambah Produk</li>
-  <li class="list-group-item">Data Statistik</li>
-  <li class="list-group-item">Keluar</li>
+<a href="{{url('/pesanan')}}"class="navbar-brand"><li class="list-group-item active">Pesanan</li></a>
+                    <a href="{{url('/produksaya')}}" class="navbar-brand"><li class="list-group-item">Produk Saya</li></a>
+                    <a href="{{url('/tambahproduk')}}" class="navbar-brand"><li class="list-group-item">Tambah Produk</li></a>
+                    <a href="{{url('/statistik')}}" class="navbar-brand"><li class="list-group-item">Data Statistik</li></a>
+                    <a href="{{url('/')}}" class="navbar-brand"><li class="list-group-item">Keluar</li></a>
 </ul>
 	
 	
