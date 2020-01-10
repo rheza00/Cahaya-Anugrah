@@ -58,3 +58,4 @@ return view('students.show', compact('student'));
 
 
 
+{{ assets('/IMG'. $barang->$image) }}

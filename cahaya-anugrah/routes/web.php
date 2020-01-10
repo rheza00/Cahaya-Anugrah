@@ -63,8 +63,9 @@ Route::get('/register', function () {
 
 
 Route::get('/pencarian', 'BarangsController@index');
+Route::get('/tambahbarang', 'BarangsController@create');
+
 Route::get('/info/{barang}', 'BarangsController@show');
+Route::post('/pencarian', 'BarangsController@store');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');

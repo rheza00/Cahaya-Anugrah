@@ -25,7 +25,7 @@ class BarangsController extends Controller
      */
     public function create()
     {
-        //
+        return view('tambahbarang');
     }
 
     /**
@@ -36,7 +36,18 @@ class BarangsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $barangs = new Barang;
+        $barangs->nama = $request->nama;
+        $barangs->kategori = $request->kategori;
+        $barangs->kondisi = $request->kondisi;
+        $barangs->jumlah = $request->jumlah;
+        $barangs->harga = $request->harga;
+        $barangs->image = $request->image;
+        $barangs->deskrikpsi = $request->deskrikpsi;
+
+        // Barang::create($request->all());
+
+        return redirect('/pencarian');
     }
 
     /**
