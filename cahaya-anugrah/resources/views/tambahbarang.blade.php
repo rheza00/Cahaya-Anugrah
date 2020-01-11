@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FP PWL 2019</title>
+	<title>Tambah Barang</title>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
@@ -10,9 +10,10 @@
 			<div class="row">
 				<div class="col-sm">
 					<br>
-					<h2>Daftar</h2>
-					<form action="/pencarian" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
-						<div class="form-group">
+					<h2>Form Tambah Barang</h2>
+					<form method="post" action="/viewadmin" enctype="multipart/form-data" class="needs-validation" novalidate>
+					@csrf	
+					<div class="form-group">
 							<input type="text" name="nama" class="form-control" placeholder="Nama Barang">
 						</div>
 						<div class="form-group">           
@@ -33,10 +34,10 @@
 						</div>
 						<div class="form-group">
 							<div class="custom-file">
-								<input type="file" name="img" >
+								<input type="file" name="image" >
 							</div><br/>
 						</div>
-						<button class="btn btn-primary" type="submit">Submit form</button>
+						<button class="btn btn-primary" type="submit">Tambah</button>
 					</form>
 				</div>
 			</div>

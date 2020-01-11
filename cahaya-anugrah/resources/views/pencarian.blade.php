@@ -63,7 +63,7 @@
 			<div class="border rounded p-3 m-2 d-flex justify-content-between">
 				<div class="d-flex">
 					
-					<img src="img/logo.png" width="150px" height="150px" class="mr-3 mb-4">			
+					<img src="{{ $barang->image }}" width="150px" height="150px" class="mr-3 mb-4">			
 					<div class="ml-3">
 						<h5><a href="info/{{ $barang->id }}">{{$barang->nama}}</a></h5>
 						<p class="mt-4">{{$barang->kategori}}</p>

@@ -62,10 +62,32 @@ Route::get('/register', function () {
 });
 
 
+
+
+
+Route::get('/viewadmin', 'AdminsController@index');
+Route::post('/viewadmin', 'BarangsController@store');
+
+
+
+
+
+
+Route::get('/viewadmindelete/{barang}', 'BarangsController@show2');
+Route::delete('/viewadmindelete/{barang}', 'BarangsController@destroy');
+Route::get('/viewadmindelete/{barang}/editbarang', 'BarangsController@edit');
+Route::patch('/viewadmindelete/{barang}', 'BarangsController@update');
+
+
 Route::get('/pencarian', 'BarangsController@index');
 Route::get('/tambahbarang', 'BarangsController@create');
 
+
+
+
 Route::get('/info/{barang}', 'BarangsController@show');
-Route::post('/pencarian', 'BarangsController@store');
+
+
+
 
 
